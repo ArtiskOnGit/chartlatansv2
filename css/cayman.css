@@ -199,3 +199,17 @@ img[alt~="test"] {
 width: 50%;
 margin-left: 23%;
 }
+
+		/* Style pour la grille */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        /* Style pour les images d'allos*/
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
